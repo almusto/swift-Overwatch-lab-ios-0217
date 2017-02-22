@@ -17,6 +17,10 @@
 		7DC007E71DB9B3DF004A9268 /* HeroTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC007E61DB9B3DF004A9268 /* HeroTypeTests.swift */; };
 		7DC007EA1DB9B654004A9268 /* WeaponProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC007E91DB9B654004A9268 /* WeaponProtocolTests.swift */; };
 		7DC007EC1DB9B8B5004A9268 /* OverwatchHeroProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC007EB1DB9B8B5004A9268 /* OverwatchHeroProtocolTests.swift */; };
+		AA90A0DF1E5DDACB000147A9 /* HeroAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90A0DE1E5DDACB000147A9 /* HeroAttributes.swift */; };
+		AA90A0E11E5DDF05000147A9 /* OverwatchHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90A0E01E5DDF05000147A9 /* OverwatchHero.swift */; };
+		AA90A0E31E5DE8C1000147A9 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90A0E21E5DE8C1000147A9 /* Hero.swift */; };
+		AA90A0E61E5DF0E0000147A9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90A0E41E5DEE1C000147A9 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		7DC007E61DB9B3DF004A9268 /* HeroTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTypeTests.swift; sourceTree = "<group>"; };
 		7DC007E91DB9B654004A9268 /* WeaponProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponProtocolTests.swift; sourceTree = "<group>"; };
 		7DC007EB1DB9B8B5004A9268 /* OverwatchHeroProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverwatchHeroProtocolTests.swift; sourceTree = "<group>"; };
+		AA90A0DE1E5DDACB000147A9 /* HeroAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAttributes.swift; sourceTree = "<group>"; };
+		AA90A0E01E5DDF05000147A9 /* OverwatchHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverwatchHero.swift; sourceTree = "<group>"; };
+		AA90A0E21E5DE8C1000147A9 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		AA90A0E41E5DEE1C000147A9 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = OverwatchTests/Game.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,10 @@
 			children = (
 				7D69AE6A1DAAF58B006B180A /* AppDelegate.swift */,
 				7D69AE6C1DAAF58B006B180A /* ViewController.swift */,
+				AA90A0DE1E5DDACB000147A9 /* HeroAttributes.swift */,
+				AA90A0E01E5DDF05000147A9 /* OverwatchHero.swift */,
+				AA90A0E21E5DE8C1000147A9 /* Hero.swift */,
+				AA90A0E41E5DEE1C000147A9 /* Game.swift */,
 				7D69AE6E1DAAF58B006B180A /* Main.storyboard */,
 				7D69AE711DAAF58B006B180A /* Assets.xcassets */,
 				7D69AE731DAAF58B006B180A /* LaunchScreen.storyboard */,
@@ -166,7 +178,7 @@
 				TargetAttributes = {
 					7D69AE661DAAF58B006B180A = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 3E2QGNXM7N;
+						DevelopmentTeam = 7X3B669663;
 						ProvisioningStyle = Automatic;
 					};
 					7D69AE7A1DAAF58B006B180A = {
@@ -221,8 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA90A0E31E5DE8C1000147A9 /* Hero.swift in Sources */,
+				AA90A0E61E5DF0E0000147A9 /* Game.swift in Sources */,
+				AA90A0DF1E5DDACB000147A9 /* HeroAttributes.swift in Sources */,
 				7D69AE6D1DAAF58B006B180A /* ViewController.swift in Sources */,
 				7D69AE6B1DAAF58B006B180A /* AppDelegate.swift in Sources */,
+				AA90A0E11E5DDF05000147A9 /* OverwatchHero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3E2QGNXM7N;
+				DEVELOPMENT_TEAM = 7X3B669663;
 				INFOPLIST_FILE = Overwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.Overwatch;
@@ -376,7 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3E2QGNXM7N;
+				DEVELOPMENT_TEAM = 7X3B669663;
 				INFOPLIST_FILE = Overwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.Overwatch;
